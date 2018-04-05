@@ -1,0 +1,4 @@
+C:\Users\Home\AppData\Local\Programs\Python\Python36-32\python.exe setup.py register
+
+C:\Users\Home\AppData\Local\Programs\Python\Python36-32\python.exe setup.py sdist upload
+
