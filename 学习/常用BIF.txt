@@ -1,0 +1,7 @@
+print()
+len()
+append()
+pop()
+extend()
+remove()
+insert()
