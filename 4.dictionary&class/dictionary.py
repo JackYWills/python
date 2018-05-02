@@ -1,11 +1,11 @@
 #coding=utf-8
 
-#1、定义字段的两种方式
+#1、定义字典的两种方式
 cleese={}
-type(cleese)
+print(type(cleese))
 
 plain=dict()
-type(plain)
+print(type(plain))
 
 #2、增加数据(不维护顺序)
 #初始化
