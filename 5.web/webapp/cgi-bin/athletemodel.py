@@ -2,17 +2,7 @@
 import pickle
 from athleteList import AthleteList
 
-        
-#格式化时间函数(-/:转换为.)
-def sanitize(time_string):
-    if '-' in time_string:
-        splitter = '-'
-    elif ':' in time_string:
-        splitter = ':'
-    else:
-        return(time_string)
-    (mins,secs) = time_string.split(splitter)
-    return(mins+'.'+secs)
+
 
 #读取txt文件为Athlete对象，并格式化时间
 def get_coach_data(filename):
