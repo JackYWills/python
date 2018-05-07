@@ -1,0 +1,50 @@
+1、List:
+	definition:
+		movies=['Rick & Morty','South Park']
+	methods:
+		len(movies)
+		movies[1]
+		movies.append('The Simpsoms')
+		movies.pop(2)
+		movies.insert(1,'The Simpsoms')
+		movies.extend(['Fight Back to School'])
+
+2、Tuple:
+	definition:
+		movies=('Rick & Morty',)
+	methods:
+		len(movies)
+
+3、dict
+	#{}：默认为dict，单个则为Set
+	definition:
+		cleese={}
+		print(type(cleese))
+
+		plain=dict()
+		print(type(plain))
+	methods:
+		#1、增加数据(不维护顺序)
+		#初始化
+		palin={'Name':'Michael Palin','Occupations':['comedian','tv']}
+		#动态新增：字符串、列表
+		cleese['Name']='John Cleese'
+		cleese['Occupations']=['actor','writer']
+
+		#2、查询
+		print(palin['Name'])
+		print(cleese['Occupations'][-1])
+
+4、Set
+	definition:
+		s={'11','22','33'}
+		#print(type(s))
+		a=set(['Rick & Morty','South Park'])
+	methods:
+		len(movies)
+		s.update('jack') #会将string拆成字符
+		s.add('aa')
+		a.remove('a')
+		print('交集：',a & b)
+
+
